@@ -6,12 +6,16 @@
   "engines": {
     "vscode": "^1.87.0"
   },
+  "repository": {
+    "url": "https://github.com/harrisbisset/sunlightocean"
+  },
   "categories": [
     "Themes"
   ],
   "contributes": {
     "themes": [
       {
+        "uiTheme": "vs-dark",
         "label": "Sunlight Ocean",
         "path": "./themes/Sunlight Ocean-color-theme.json"
       }
