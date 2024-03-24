@@ -1,0 +1,63 @@
+[core]
+color-theme = "Monokai"
+modal = false
+custom-titlebar = false
+icon-theme = "Material Icons"
+
+[lapce-go]
+"gopls.experimentalPackageCacheKey" = false
+
+[editor]
+format-on-save = true
+font-size = 16
+
+[color-theme]
+
+[color-theme.ui]
+"editor.dim" = ""
+
+[color-theme.syntax]
+variable = "$cyan"
+property = "#a166b0"
+constant = "$black"
+field = "$black"
+escape = "$black"
+builtinType = "$black"
+comment = "$magenta"
+constructor = "$black"
+enum = "$black"
+embedded = "$black"
+enum-member = "$black"
+enumMember = "$black"
+interface = "$black"
+keyword = "$black"
+method = "$black"
+number = "$black"
+"punctuation.delimiter" = "$black"
+selfKeyword = "$black"
+string = "$yellow"
+"string.escape" = "$black"
+struct = "$black"
+structure = "$black"
+symbol = "$black"
+tag = "$black"
+"text.reference" = "$black"
+"text.title" = "$black"
+"variable.other.member" = "$black"
+typeAlias = "$black"
+type = "$black"
+"text.uri" = "$black"
+"function.method" = "$yellow"
+function = "$green"
+attribute = "$black"
+
+[color-theme.base]
+purple = "#a166b0"
+cyan = "#99b7d1"
+blue = "#7ecfd6"
+green = "#5be3a6"
+magenta = "#b79bc2"
+yellow = "#f0eaa1"
+
+[ui]
+font-size = 16

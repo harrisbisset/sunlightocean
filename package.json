@@ -1,0 +1,20 @@
+{
+  "name": "sunlightocean",
+  "displayName": "SunlightOcean",
+  "description": "A colour theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sunlight Ocean",
+        "path": "./themes/Sunlight Ocean-color-theme.json"
+      }
+    ]
+  }
+}
