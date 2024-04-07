@@ -162,6 +162,29 @@
 			}
 		},
 		{
+			"name": "HTML Tags",
+			"scope": [
+				"meta.tag",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html"
+			],
+			"settings": {
+				"foreground": "#ecb5ff",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "HTML Text",
+			"scope": [
+				"string.quoted.double.html"
+			],
+			"settings": {
+				"foreground": "#77abee",
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"name": "Support Func",
 			"scope": [
 				"support.function",
@@ -195,13 +218,6 @@
 				"foreground": "#b49ac4"
 			}
 		},
-		// {
-		// 	"name": "Exceptions",
-		// 	"scope": "entity.name.exception",
-		// 	"settings": {
-		// 		"foreground": "#8c00ff"
-		// 	}
-		// },
 		{
 			"name": "Numbers, Characters",
 			"scope": [
@@ -273,18 +289,6 @@
 		// 	],
 		// 	"settings": {
 		// 		"foreground": "#AAAAAA"
-		// 	}
-		// },
-		// {
-		// 	"name": "HTML: Tags",
-		// 	"scope": [
-		// 		"meta.tag",
-		// 		"punctuation.definition.tag.html",
-		// 		"punctuation.definition.tag.begin.html",
-		// 		"punctuation.definition.tag.end.html"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#91B3E0"
 		// 	}
 		// },
 		// {
