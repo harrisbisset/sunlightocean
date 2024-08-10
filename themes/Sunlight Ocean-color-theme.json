@@ -232,7 +232,7 @@
 		{
 			"name": "Strings",
 			"scope": [
-				"string",
+				"string.quoted.double.go",
 			],
 			"settings": {
 				"foreground": "#dbffb6"
@@ -290,7 +290,6 @@
 		{
 			"name": "Templ_String_2",
 			"scope": [
-				"string.quoted.double.go",
 				"source.templ",
 			],
 			"settings": {
