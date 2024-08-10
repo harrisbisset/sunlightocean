@@ -279,46 +279,65 @@
 				"foreground": "#ffffff"
 			}
 		},
-		// {
-		// 	"name": "HTML: Doctype Declaration",
-		// 	"scope": [
-		// 		"meta.tag.sgml.doctype",
-		// 		"meta.tag.sgml.doctype string",
-		// 		"meta.tag.sgml.doctype entity.name.tag",
-		// 		"meta.tag.sgml punctuation.definition.tag.html"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#AAAAAA"
-		// 	}
-		// },
-		// {
-		// 	"name": "HTML: Tag Names",
-		// 	"scope": "entity.name.tag",
-		// 	"settings": {
-		// 		"foreground": "#4B83CD"
-		// 	}
-		// },
-		// {
-		// 	"name": "HTML: Attribute Names",
-		// 	"scope": [
-		// 		"meta.tag entity.other.attribute-name",
-		// 		"entity.other.attribute-name.html"
-		// 	],
-		// 	"settings": {
-		// 		"fontStyle": "italic",
-		// 		"foreground": "#91B3E0"
-		// 	}
-		// },
-		// {
-		// 	"name": "HTML: Entities",
-		// 	"scope": [
-		// 		"constant.character.entity",
-		// 		"punctuation.definition.entity"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#AB6526"
-		// 	}
-		// },
+		{
+			"name": "Templ_String",
+			"scope":"string.quoted.double.html",
+			"settings": {
+				"foreground": "#b49ac4",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Templ_String_2",
+			"scope": [
+				"string.quoted.double.go",
+				"source.templ",
+			],
+			"settings": {
+				"foreground": "#b49ac4",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "HTML: Doctype Declaration",
+			"scope": [
+				"meta.tag.sgml.doctype",
+				"meta.tag.sgml.doctype string",
+				"meta.tag.sgml.doctype entity.name.tag",
+				"meta.tag.sgml punctuation.definition.tag.html"
+			],
+			"settings": {
+				"foreground": "#AAAAAA"
+			}
+		},
+		{
+			"name": "HTML: Tag Names",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#4B83CD"
+			}
+		},
+		{
+			"name": "HTML: Attribute Names",
+			"scope": [
+				"meta.tag entity.other.attribute-name",
+				"entity.other.attribute-name.html"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#91B3E0"
+			}
+		},
+		{
+			"name": "HTML: Entities",
+			"scope": [
+				"constant.character.entity",
+				"punctuation.definition.entity"
+			],
+			"settings": {
+				"foreground": "#AB6526"
+			}
+		},
 		// {
 		// 	"name": "CSS: Selectors",
 		// 	"scope": [
