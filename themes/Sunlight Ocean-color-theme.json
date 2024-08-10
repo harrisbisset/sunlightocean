@@ -299,11 +299,21 @@
 			}
 		},
 		{
+			"name": "PercentageFix",
+			"scope":[
+				"invalid.illegal.placeholder.gotemplate",
+				"source.templ",
+			],
+			"settings": {
+				"foreground": "#b49ac4",
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"name": "Templ_Quote",
 			"scope": [
 				"punctuation.definition.string.begin.go",
 				"punctuation.definition.string.end.go",
-				"string.quoted.double.go",
 				"source.templ",
 			],
 			"settings": {
@@ -315,7 +325,6 @@
 			"scope":"import-expression.templ",
 			"settings": {
 				"foreground": "#b49ac4",
-				"fontStyle": "underline"
 			}
 		},
 		{
@@ -323,6 +332,13 @@
 			"scope":"import-expression.templ",
 			"settings": {
 				"foreground": "#7b6283",
+			}
+		},
+		{
+			"name":"Templ_Missing",
+			"scope":"params.script-template.templ",
+			"settings": {
+				"foreground": "#99B7D1",
 			}
 		},
 		{
