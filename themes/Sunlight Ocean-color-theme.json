@@ -299,6 +299,33 @@
 			}
 		},
 		{
+			"name": "Templ_Quote",
+			"scope": [
+				"punctuation.definition.string.begin.go",
+				"punctuation.definition.string.end.go",
+				"string.quoted.double.go",
+				"source.templ",
+			],
+			"settings": {
+				"foreground": "#ffffff",
+			}
+		},
+		{
+			"name": "Templ_Import",
+			"scope":"import-expression.templ",
+			"settings": {
+				"foreground": "#b49ac4",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Templ_@",
+			"scope":"import-expression.templ",
+			"settings": {
+				"foreground": "#7b6283",
+			}
+		},
+		{
 			"name": "HTML: Doctype Declaration",
 			"scope": [
 				"meta.tag.sgml.doctype",
